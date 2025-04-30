@@ -1,6 +1,10 @@
 {
   "name": "genpub",
   "version": "0.1.0",
-  "scripts": { "dev": "next dev" },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": { "@supabase/supabase-js": "^2.0.0", "next": "13.0.0", "react": "18.0.0", "react-dom": "18.0.0" }
 }
